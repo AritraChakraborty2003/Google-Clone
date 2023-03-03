@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    display:flex;
+    justify-content: flex-end;
+    height: 58px;
+    margin-top: 1vmin;
+}
+main{
+    
+    width:100vmin;
+    height:60vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25vmin;
+    margin-left: -50vmin;
+}
+.navbar{
+    display: flex;
+    width:20%;
+    justify-content: space-evenly;
+    height: 100%;
+}
+@media(min-width:1023px){
+    .navbar{
+        display: flex;
+        width:20%;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+.lowerFooter{
+    position: absolute;
+    top:87%;
+    left:0%;
+    width: 100vw;
+    border: 1px solid lightgray;
+    border-top: 1px solid snow;
+    height: 7vmin;
+}
+.upperFooter{
+    position: absolute;
+    top:93%;
+    left:0%;
+    width: 100vw;
+    border: 1px solid lightgray;
+   
+    height: 7vmin;
+}
+}
+
+@media(max-width:1023px){
+    .navbar{
+        display: flex;
+        width:35%;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+    .lowerFooter{
+        position: absolute;
+        top:90%;
+        left:0%;
+        width: 100vw;
+        border: 1px solid lightgray;
+        border-top: 1px solid snow;
+        height: 9vmin;
+    }
+    .upperFooter{
+        position: absolute;
+        top:94.5%;
+        left:0%;
+        width: 100vw;
+        
+        border: 1px solid lightgrey;
+        
+        height: 9vmin;
+    }
+    }
+
+.logo-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.google-icon{
+  
+    border-radius: 3vmin;
+    margin-top: 0.5vmin;
+ 
+
+}
+.text-header{
+    margin-top: 1.3vmin;
+    font-size:2vmin;
+    font-family: arial,sans-serif;
+    color:rgba(0, 0, 0, 0.87);
+    font-style:normal;
+    font-weight: 400;
+}
+.searchpane{
+    display: flex;
+    height: 6.5vmin;
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 4vmin;
+    margin: 4vmin auto;
+
+}
+
+
+.search-bar{
+    margin-left: 3vmin;
+    width: 75%;
+    border: 1px solid white;
+    font-size: 2vmin;
+    padding-left: 1vmin;
+}
+
+
+.pane-right{
+    display: flex;
+    width:calc(100% - calc(75% + 3.5vmin));
+    justify-content: space-evenly;
+}
+.lens-icon,.voice-icon{
+    margin-top: 1.4vmin;
+}
+.voice-icon{
+    margin-top: 1.7vmin;
+}
+.search-button-holder{
+    width: 100%;
+    column-gap: 2vmin;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.search-button-holder button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #4d4f5c;
+    padding: 1.5vmin;
+    font-weight: 400;
+    font-family: sans-serif, Arial;
+}
+
+.holder-support-text{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5vmin;
+}
+.upper-text{
+    margin-left: 2.5vmin;
+    font-family: Arial, sans-serif;
+    font-size: 1.90vmin;
+}
+.lower-text{
+    padding-top: 3vmin;
+    font-family: Arial, sans-serif;
+    font-size: 1.90vmin;
+}
+.upperFooter,.lowerFooter{
+    background-color: #f2f2f2;
+
+}
+
+
+@media(min-width:1023px){
+
+    .upperFooter{
+        display: grid;
+        grid-template-rows: 1 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+
+.col3{
+    
+    display: flex;
+    align-items: center;
+    column-gap: 3vmin;
+    justify-content: flex-end;
+    padding-right: 2vmin;
+    color: grey;
+    font-family: Arial, sans-serif;
+    font-size: 2vmin;
+    font-weight: 400;
+}
+
+.col1{
+    display: flex;
+    align-items: center;
+    column-gap: 2.5vmin;
+    margin-left: 3vmin;
+    color: grey;
+    font-family: Arial, sans-serif;
+    font-size: 2vmin;
+    font-weight: 400;
+}
+}
+
+
+
+@media(max-width:1023px){
+    .upperFooter{
+        display: grid;
+        grid-template-rows: 1 100%;
+        grid-template-columns: 2fr 0.75fr 1.5fr;
+    }
+    
+
+    .col3{
+        
+        display: flex;
+        align-items: center;
+        column-gap: 1.45vmin;
+        justify-content: flex-end;
+        padding-right: 1.5vmin;
+        color: grey;
+        font-family: Arial, sans-serif;
+        font-size: 2vmin;
+        font-weight: 400;
+    }
+    
+    .col1{
+        display: flex;
+        align-items: center;
+        column-gap: 1vmin;
+        margin-left: 1.5vmin;
+        color: grey;
+        font-family: Arial, sans-serif;
+        font-size: 2vmin;
+        font-weight: 400;
+    }
+    }
